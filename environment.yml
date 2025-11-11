@@ -1,0 +1,4 @@
+name: Image_Label
+channels:
+  - defaults
+prefix: C:\Users\Admin\anaconda3\envs\Image_Label
