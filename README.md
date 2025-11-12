@@ -1,2 +1,3 @@
 # Image_Label
-Project is about the Object Detection_model
+Project is about the Object Detection_model 
+We nedd lots of images to train the data
