@@ -19,5 +19,5 @@ with open(env_path ,"r") as f :
     e_file=f.read()
 print("\nContent of text.txt:")
 print(content)
-
+print("*"*30)
 print(e_file)
