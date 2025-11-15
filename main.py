@@ -15,5 +15,7 @@ print("Text file:", text_path)
 with open(text_path, "r") as f:
     content = f.read()
 
+with open(env_path ,"r") as f :
+    e_file=f.read()
 print("\nContent of text.txt:")
 print(content)
