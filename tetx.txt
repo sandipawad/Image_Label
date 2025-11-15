@@ -1,0 +1,15 @@
+from ultralytics import YOLO
+from config import *
+
+def run_prediction():
+    model = YOLO(WEIGHTS)
+
+    model.predict(
+        source=PRED_SOURCE,
+        conf=CONF_THRESHOLD,
+        iou=IOU_THRESHOLD,
+        save=SAVE_RESULTS
+    )
+
+if __name__ == "__main__":
+    run_prediction()
